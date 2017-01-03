@@ -1,12 +1,16 @@
 # 100 Days Of Code - Log
 
-### Day 0: January 3rd 2017 (The Hashtag Generator)
+### Day 0: January 3rd 2017 (The Hashtag Generator & Integers: Recreation One)
 
-**Today's Progress**: Worked on Hashtag Generator kata (TDD) [@codewars](https://www.codewars.com)
+**Today's Progress**: Worked on Hashtag Generator kata [@codewars](https://www.codewars.com)
 
-**Thoughts:** It was a nice challenge, generating hastags from a string if not greater than 140 characters :smile:
+**Thoughts:** The Hastag generator challenge was nice, generating hastags from a string if not greater than 140 characters :smile:.
+The Recreation One Challenge was a cool one too, returning the sum of possible squared numbers and the number itself; the factor.
 
-**Link to work:** [The Hashtag Generator](https://www.codewars.com/kata/the-hashtag-generator/train/javascript)
+**Links to work:**
+ - [The Hashtag Generator](https://www.codewars.com/kata/the-hashtag-generator/solutions/javascript/me/best_practice)
+
+ - [Integers: Recreation One](https://www.codewars.com/kata/integers-recreation-one/solutions/javascript/me/best_practice)
 
 ### Day 0: February 30, 2016 (Example 2)
 ##### (delete me or comment me out)
