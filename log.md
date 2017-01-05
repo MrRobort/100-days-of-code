@@ -8,9 +8,17 @@
 The Recreation One Challenge was a cool one too, returning the sum of possible squared numbers and the number itself; the factor.
 
 ##### Links
-- [The Hashtag Generator](https://www.codewars.com/kata/the-hashtag-generator/solutions/javascript/me/best_practice)
+- [The Hashtag Generator](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-integers-recreation-one-js)
 
-- [Integers: Recreation One](https://www.codewars.com/kata/integers-recreation-one/solutions/javascript/me/best_practice)
+- [Integers: Recreation One](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-the-hashtag-generator-js)
+
+### Day 1: January 4th 2017 (Valid Braces)
+
+**Today's Progress**: Worked on Valid Braces kata on [codewars](https://www.codewars.com)
+
+**Thoughts:** The Challenge struck me a bit 'cos my thoughts were too shallow but i figured it out on the long run :smile:
+
+**Link**: [Valid Braces](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-valid-braces-js)
 
 <!-- ### Day 0: February 30, 2016 (Example 2)
 ##### (delete me or comment me out)
