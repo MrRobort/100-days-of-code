@@ -2,9 +2,9 @@
 
 ### Day 0: January 3rd 2017 (The Hashtag Generator & Integers: Recreation One)
 
-**Today's Progress**: Worked on Hashtag Generator kata and Recreation One Challenge via [@codewars](https://www.codewars.com)
+**Today's Progress**: Worked on Hashtag Generator and Recreation One Kata's [@codewars](https://www.codewars.com)
 
-**Thoughts:** The Hastag generator challenge was nice, generating hastags from a string if not greater than 140 characters :smile:.
+**Thoughts:** The Hashtag generator challenge was nice, generating hashtags from a string if not greater than 140 characters :smile:.
 The Recreation One Challenge was a cool one too, returning the sum of possible squared numbers and the number itself; the factor.
 
 ##### Links
@@ -16,26 +16,17 @@ The Recreation One Challenge was a cool one too, returning the sum of possible s
 
 **Today's Progress**: Worked on Valid Braces kata on [codewars](https://www.codewars.com)
 
-**Thoughts:** The Challenge struck me a bit 'cos my thoughts were too shallow but i figured it out on the long run :smile:
+**Thoughts:** The Challenge struck me a bit 'cos my thoughts were too shallow but i figured it out on the long run by just replacing the braces with nothing :smile: then if the final length of braces equals 0 then it's valid.
 
 **Link**: [Valid Braces](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-valid-braces-js)
 
-<!-- ### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+### Day 2: January 5th 2017 (RGB to Hex & Palindrome Chain Length)
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Worked on RGB to Hex and Palindrome Chain Length kata's and i moved up in rank(5 kyu) [@codewars](https://www.codewars.com)
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** The RGB to Hex was fun because i knew `Number.toString(16)` converts to hexademical, so i just applied it and made sure it was between 0 and 255. Palindrome Chain Length was quite an easy one for a 5 kyu challenge [@codewars](https://www.codewars.com); if the number supplied is a Palindrome, return 0 cos no steps were involved in achieving that, else, add the Palindrome of the supplied number to the number... Keep on doing that till you finally get a Palindrome, then return the number of times you went through to achieve the Palindrome.
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+##### Links
+- [RGB to Hex](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-rgb-to-hex-js)
 
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence) -->
+- [Palindrome Chain Length](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-palindrome-chain-length-js)
