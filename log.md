@@ -22,7 +22,7 @@ The Recreation One Challenge was a cool one too, returning the sum of possible s
 
 ### Day 2: January 5th 2017 (RGB to Hex & Palindrome Chain Length)
 
-**Today's Progress**: Worked on RGB to Hex and Palindrome Chain Length kata's and i moved up in rank(5 kyu) [@codewars](https://www.codewars.com)
+**Today's Progress**: Worked on RGB to Hex and Palindrome Chain Length kata's and i moved up in rank(5 kyu) [@codewars](https://www.codewars.com) !image[](https://www.codewars.com/users/ademola/badges/micro)
 
 **Thoughts:** The RGB to Hex was fun because i knew `Number.toString(16)` converts to hexademical, so i just applied it and made sure it was between 0 and 255. Palindrome Chain Length was quite an easy one for a 5 kyu challenge [@codewars](https://www.codewars.com); if the number supplied is a Palindrome, return 0 cos no steps were involved in achieving that, else, add the Palindrome of the supplied number to the number... Keep on doing that till you finally get a Palindrome, then return the number of times you went through to achieve the Palindrome.
 
@@ -30,3 +30,11 @@ The Recreation One Challenge was a cool one too, returning the sum of possible s
 - [RGB to Hex](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-rgb-to-hex-js)
 
 - [Palindrome Chain Length](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-palindrome-chain-length-js)
+
+### Day 3: January 5th 2017 (Strip URL params)
+
+**Today's Progress**: Worked on Strip URL params kata on [codewars](https://www.codewars.com)
+
+**Thoughts:** It was kinda nice sha, removing duplicate params from URL and filtering out unwanted params :sweat_smile:
+
+**Link**: [Strip URL params](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-strip-url-params-js)
