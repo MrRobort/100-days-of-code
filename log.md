@@ -52,3 +52,5 @@ The Recreation One Challenge was a cool one too, returning the sum of possible s
 ### Day 5: January 8th 2017 (Formatting a number as price)
 
 **Thoughts:** Today's challenge was nice. `Number.prototype.toLocaleString()` did most of the job for me by splitting the nums in Three(s). All that was left was me was to pad the number, and to make sure it is fixed to 2d.p(s).
+
+**Link:** [Formatting a number as price](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-formatting-a-number-as-price-js)
