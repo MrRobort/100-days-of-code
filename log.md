@@ -37,14 +37,18 @@ The Recreation One Challenge was a cool one too, returning the sum of possible s
 
 **Today's Progress**: Worked on Strip URL params kata on [codewars](https://www.codewars.com)
 
-**Thoughts:**: It was nice removing duplicate params from URL and filtering out unwanted params :sweat_smile:
+**Thoughts:** It was nice removing duplicate params from URL and filtering out unwanted params :sweat_smile:
 
-**Link**: [Strip URL params](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-strip-url-params-js)
+**Link:** [Strip URL params](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-strip-url-params-js)
 
 ### Day 4: January 7th 2017 (Coordinates Validator)
 
 **Today's Progress**: Worked on Coordinates Validator kata on [codewars](https://www.codewars.com)
 
-**Thoughts:**: Lots of es6 sugar used here. LOL. Array destructing to coin out latitude, longitude and rest. rest shouldn't exist because coordinates contains just lat and lon, so we'd return invalid if that occurs. I replaced `e` to `ex` in each lat and lon; Will i call that an Hack? LOL. Because i was surprised at first when my code didn't pass for a longitude of 1e1 which evaluates to 10, then i had to tweak it to not accept exponentials by replacing em with something else.
+**Thoughts:** Lots of es6 sugar used here. LOL. Array destructing to coin out latitude, longitude and rest. rest shouldn't exist because coordinates contains just lat and lon, so we'd return invalid if that occurs. I replaced `e` to `ex` in each lat and lon; Will i call that an Hack? LOL. Because i was surprised at first when my code didn't pass for a longitude of 1e1 which evaluates to 10, then i had to tweak it to not accept exponentials by replacing em with something else.
 
-**Link**: [Coordinates Validator](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-coordinates-validator-js)
+**Link:** [Coordinates Validator](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-coordinates-validator-js)
+
+### Day 5: January 8th 2017 (Formatting a number as price)
+
+**Thoughts:** Today's challenge was nice. `Number.prototype.toLocaleString()` did most of the job for me by splitting the nums in Three(s). All that was left was me was to pad the number, and to make sure it is fixed to 2d.p(s).
