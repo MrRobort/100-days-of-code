@@ -71,4 +71,10 @@ The Recreation One Challenge was a cool one too, returning the sum of possible s
 
 **Thoughts:** I made Preact Simple Starter better! PSS is a project i started way back before 100DOC with a lighthouse score around 75, i made some changes a while ago to make it better, and it moved up to 87. It made sense at 87 cos i was seeing the green :smile: Today i just said to myself "Why not make it to 100?", then i decided to measure then optimize; Added Common Chunks plugin, removed preset es2015-minimal cos it had some error attached to it at compile time, added webpack dashboard so we could see what package takes up our bundled files. I was serving the bundled chunk(It was one) async initially to avoid parser blocking which was suggested by @developit, but had to remove it cos the file added to common chunk must be served first. The whole process was fun tho :smile:
 
-**Link:** Check out PSS repo [here]('https://github.com/ooade/PreactSimpleStarter')
+**Link:** Check out PSS repo [here](https://github.com/ooade/PreactSimpleStarter)
+
+### Day 9: January 12, 2017
+
+**Thoughts:** Solved Mod 4 Regex Kata on [Codewars](https://codewars.com). Nothing to say much about the regex; i just grab the multiples of 4 less than 100 and compare em all to the string passed to the test function :sweat_smile:
+
+**Link:** [Mod 4 Regex](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-mod4-regex-js)
