@@ -66,3 +66,9 @@ The Recreation One Challenge was a cool one too, returning the sum of possible s
 **Thoughts:** Solved `The Great XOR` challenge on [Hackerrank](https://hackerrank.com) under the current Hackerrank's week of code 28. The Challenge seemed esoteric but i was able to pull through after reading the instructions over again. You can get every detail about the challenge [here](https://www.hackerrank.com/contests/w28/challenges)
 
 **Link:** Will be added as soon as week of code 28 is completed, and if you "kinda" wanna know if i've done it, you can cross-check [here](https://hackerrank.com/ooade) :smile:
+
+### Day 8: January 11, 2017
+
+**Thoughts:** I made Preact Simple Starter better! PSS is a project i started way back before 100DOC with a lighthouse score around 75, i made some changes a while ago to make it better, and it moved up to 87. It made sense at 87 cos i was seeing the green :smile: Today i just said to myself "Why not make it to 100?", then i decided to measure then optimize; Added Common Chunks plugin, removed preset es2015-minimal cos it had some error attached to it at compile time, added webpack dashboard so we could see what package takes up our bundled files. I was serving the bundled chunk(It was one) async initially to avoid parser blocking which was suggested by @developit, but had to remove it cos the file added to common chunk must be served first. The whole process was fun tho :smile:
+
+**Link:** Check out PSS repo [here]('https://github.com/ooade/PreactSimpleStarter')
