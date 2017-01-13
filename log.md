@@ -78,3 +78,10 @@ The Recreation One Challenge was a cool one too, returning the sum of possible s
 **Thoughts:** Solved Mod 4 Regex Kata on [Codewars](https://codewars.com). Nothing to say much about the regex; i just grabbed the multiples of 4 less than 100 and compare em all to the string passed to the test method :sweat_smile:
 
 **Link:** [Mod 4 Regex](https://gist.github.com/ooade/fe34dc4921ea90f305f0398299ceeb6b#file-mod4-regex-js)
+
+### Day 10: January 13, 2017
+
+**Thoughts:** Solved Ordinary Ordinals Challenge on [Hackerrank](https://hackerrank.com) with C :smile:
+My first challenge this year outta my comfort zone :sweat_smile: It was actually nice tho; I got to know about the `strtok` and `strcmp` function.
+
+**Link:** Will be posted when the context is over; On Monday
