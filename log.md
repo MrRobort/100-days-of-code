@@ -85,3 +85,10 @@ The Recreation One Challenge was a cool one too, returning the sum of possible s
 My first challenge this year outta my comfort zone :sweat_smile: It was actually nice tho; I got to know about the `strtok` and `strcmp` function.
 
 **Link:** Will be posted when the context is over; On Monday
+
+### Day 11: January 14, 2017
+
+**Thoughts:** Solved Title Case Challenge on [Hackerrank](https://hackerrank.com) with C :smile:
+I really learnt a lot from today's challenge cos' C is one hell of a language
+
+**Link:** Will be posted when the context is over; On Monday
