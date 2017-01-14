@@ -1,10 +1,8 @@
 # 100 Days Of Code - Log
 
-<img src='https://www.codewars.com/users/ademola/badges/small' />
+### Day 1: January 12th 2017 (Allocating memory in the heap )
 
-### Day 1: January 12th 2017 (i bulid simple program theat taks one integer argument and allocated in memory )
-
-**Today's Progress**: Worked on allocating memory with C
+**Today's Progress**: i bulid simple program theat taks one integer argument and allocated in memory
 
 **Thoughts:** The allocater i name it like theat beacuse i wnat to understand how memory works and move alone .
 
@@ -25,4 +23,4 @@
 
 ##### Links
 
-when i am done i will post on mondy i hope :)
+i will post it on mondy i hope :)
