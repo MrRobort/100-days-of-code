@@ -3,15 +3,15 @@
 #robort@Programing:~/Documents/Programing$ ./memory_allocting_Version2 0
 #  the result: 
     [+]Allcating 0 byte of memory for char_ptr
-  char_ptr at (0x8654008) --> This memory is located in the heap
+    char_ptr at (0x8654008) --> This memory is located in the heap
     [+]Allocating another 15 byte of for int_ptr
-  int_ptr (0x8654018) --> 31731
+    int_ptr (0x8654018) --> 31731
     [-]Freeing char_ptr
     [+]Allcating 30 bytes of memory for char_ptr
-  char_ptr (0x8654030) --> New Memory
+    char_ptr (0x8654030) --> New Memory
     [-]Freeing int_ptr
     [-]Freeing char_ptr
-  *** Error in `./memory_allocting_Version2': free(): invalid next size (fast): 0x08654030 ***
+     *** Error in `./memory_allocting_Version2': free(): invalid next size (fast): 0x08654030 ***
     Aborted
 
     okay lets run this with GDB and make break on the last free():
