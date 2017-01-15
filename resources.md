@@ -1,30 +1,24 @@
 # Recommended resources
 
 ## Helpful Articles
-1. [Gentle Explanation of 'this keyword in JavaScript](http://rainsoft.io/gentle-explanation-of-this-in-javascript/)
+1. http://null-byte.wonderhowto.com/how-to/linux-basics/
 
 ## Projects and Ideas
-1. [FreeCodeCamp](https://www.freecodecamp.com)
-2. [The Odin Project](http://www.theodinproject.com/)
+1. [The AI] (under development) 
+2. [The Sa7ab System ](also under development)
 
 ## Other resources
 1. [CodeNewbie - #100DaysOfCode Slack Channel](https://codenewbie.typeform.com/to/uwsWlZ)
 
 ## Tools
-1. [cntr](https://github.com/nsgonultas/cntr): A command line day counter to track your progress easily
+1. [GDB](https://www.sourceware.org/gdb/): A command line Debugeing tool know your mastake
 
-## Books (both coding and non-coding)
-
-### Non-Coding
-1. ["The War of Art" by Steven Pressfield](http://www.goodreads.com/book/show/1319.The_War_of_Art)
-2. ["The Obstacle is the Way" by Ryan Holiday](http://www.goodreads.com/book/show/18668059-the-obstacle-is-the-way?ac=1&from_search=true)
-3. ["Ego is the Enemy" by Ryan Holiday](http://www.goodreads.com/book/show/27036528-ego-is-the-enemy?from_search=true&search_version=service)
-4. ["Meditations" by Marcus Aurelius](https://www.goodreads.com/book/show/662925.Meditations)
+## Books (onlay coding)
 
 ### Coding
-1. "Professional Node.js" by Teixeira
-2. ["Eloquent Javascript" by Marijn Haverbeke](http://eloquentjavascript.net/) - available online (free) & as a paperback
-3. "Mastering JavaScript" by Ved Antani
+1. "Hacking: The art Exploitation" by John Erickson (http://amzn.eu/3ldGsgP)
+2. ["the c programming language 2nd edition](http://amzn.eu/8J94b1q/)
+
 
 ## Contents
 * [Rules](rules.md)
