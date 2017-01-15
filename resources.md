@@ -4,8 +4,8 @@
 1. http://null-byte.wonderhowto.com/how-to/linux-basics/
 
 ## Projects and Ideas
-1. [The AI] (under development) 
-2. [The Sa7ab System ](also under development)
+1. [The AI] (AI) 
+2. [The Sa7ab System ](Sa7ab_System)
 
 ## Other resources
 1. [CodeNewbie - #100DaysOfCode Slack Channel](https://codenewbie.typeform.com/to/uwsWlZ)
