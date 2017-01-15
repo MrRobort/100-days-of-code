@@ -1,6 +1,6 @@
 all this is just for me to learn to program in C and analyzing it with GDB  
 when you give mem_size 0 the last free will be like this:
-robort@Programing:~/Documents/Programing$ ./memory_allocting_Version2 robort
+#robort@Programing:~/Documents/Programing$ ./memory_allocting_Version2 robort
   the result: 
     [+]Allcating 0 byte of memory for char_ptr
   char_ptr at (0x8654008) --> This memory is located in the heap
@@ -45,7 +45,7 @@ char_ptr (0x804b030) --> New Memory
 Breakpoint 1, main (argc=2, argv=0xbffff2d4) at memory_allocting_Version2.c:41
 41		free(char_ptr);
 (gdb) bt full
-#0  main (argc=2, argv=0xbffff2d4) at memory_allocting_Version2.c:41
+        main (argc=2, argv=0xbffff2d4) at memory_allocting_Version2.c:41
         char_ptr = 0x804b030 "New Memory"
         int_ptr = 0x804b018
         mem_size = 30
