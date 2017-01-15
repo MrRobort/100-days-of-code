@@ -14,20 +14,20 @@
      *** Error in `./memory_allocting_Version2': free(): invalid next size (fast): 0x08654030 ***
     Aborted
 
-    okay lets run this with GDB and make break on the last free():
+##  okay lets run this with GDB and make break on the last free():
 # robort@Programing:~/Documents/Programing$ gdb -q ./memory_allocating_Version2
     Reading symbols from ./memory_allocting_Version2...done.
- # (gdb) list
-  34		
-  35		strcpy(char_ptr, "New Memory");
-  36		printf("char_ptr (%p) --> %s\n", char_ptr, char_ptr);
-  37		
-  38		printf("\t[-]Freeing int_ptr\n");
-  39		free(int_ptr);
-  40		printf("\t[-]Freeing char_ptr\n");
-  41		free(char_ptr);
-  42		
-  43	}
+    (gdb) list 
+    34		
+    35		strcpy(char_ptr, "New Memory");
+    36		printf("char_ptr (%p) --> %s\n", char_ptr, char_ptr);
+    37		
+    38		printf("\t[-]Freeing int_ptr\n");
+    39		free(int_ptr);
+    40		printf("\t[-]Freeing char_ptr\n");
+    41		free(char_ptr);
+    42		
+    43	}
 #  (gdb) break 41
    Breakpoint 1 at 0x80486f2: file memory_allocting_Version2.c, line 41.
 #  (gdb) run 0
