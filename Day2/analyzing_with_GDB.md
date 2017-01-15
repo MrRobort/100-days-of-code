@@ -1,7 +1,7 @@
-all this is just for me to learn to program in C and analyzing it with GDB  
-when you give mem_size 0 the last free will be like this:
-#robort@Programing:~/Documents/Programing$ ./memory_allocting_Version2 robort
-  the result: 
+## All this is just for me to learn to program in C and analyzing it with GDB  
+## when you give mem_size 0 the last free will be like this:
+#robort@Programing:~/Documents/Programing$ ./memory_allocting_Version2 0
+#  the result: 
     [+]Allcating 0 byte of memory for char_ptr
   char_ptr at (0x8654008) --> This memory is located in the heap
     [+]Allocating another 15 byte of for int_ptr
@@ -15,9 +15,9 @@ when you give mem_size 0 the last free will be like this:
     Aborted
 
     okay lets run this with GDB and make break on the last free():
-robort@Programing:~/Documents/Programing$ gdb -q ./memory_allocating_Version2
+# robort@Programing:~/Documents/Programing$ gdb -q ./memory_allocating_Version2
     Reading symbols from ./memory_allocting_Version2...done.
-  (gdb) list
+ # (gdb) list
   34		
   35		strcpy(char_ptr, "New Memory");
   36		printf("char_ptr (%p) --> %s\n", char_ptr, char_ptr);
@@ -28,9 +28,9 @@ robort@Programing:~/Documents/Programing$ gdb -q ./memory_allocating_Version2
   41		free(char_ptr);
   42		
   43	}
-  (gdb) break 41
+#  (gdb) break 41
    Breakpoint 1 at 0x80486f2: file memory_allocting_Version2.c, line 41.
-  (gdb) run robort
+#  (gdb) run robort
   Starting program: /home/robort/Documents/Programing/memory_allocting_Version2 robort
 	[+]Allcating 0 byte of memory for char_ptr
 char_ptr at (0x804b008) --> This memory is located in the heap
@@ -44,16 +44,16 @@ char_ptr (0x804b030) --> New Memory
 
 Breakpoint 1, main (argc=2, argv=0xbffff2d4) at memory_allocting_Version2.c:41
 41		free(char_ptr);
-(gdb) bt full
+# (gdb) bt full
         main (argc=2, argv=0xbffff2d4) at memory_allocting_Version2.c:41
         char_ptr = 0x804b030 "New Memory"
         int_ptr = 0x804b018
         mem_size = 30
-(gdb) x/xw 0x804b030
+#(gdb) x/xw 0x804b030
 0x804b030:	0x2077654e
-(gdb) x/xw 0x2077654e
+#(gdb) x/xw 0x2077654e
 0x2077654e:	Cannot access memory at address 0x2077654e
-(gdb) continue
+#(gdb) continue
 Continuing.
 *** Error in `/home/robort/Documents/Programing/memory_allocting_Version2': free(): invalid next size (fast): 0x0804b030 ***
 
