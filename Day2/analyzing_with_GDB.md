@@ -30,8 +30,8 @@
   43	}
 #  (gdb) break 41
    Breakpoint 1 at 0x80486f2: file memory_allocting_Version2.c, line 41.
-#  (gdb) run robort
-  Starting program: /home/robort/Documents/Programing/memory_allocting_Version2 robort
+#  (gdb) run 0
+  Starting program: /home/robort/Documents/Programing/memory_allocting_Version2 0
 	[+]Allcating 0 byte of memory for char_ptr
 char_ptr at (0x804b008) --> This memory is located in the heap
 	[+]Allocating another 15 byte of for int_ptr
